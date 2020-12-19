@@ -26,6 +26,7 @@
 {{- /*  bundle all required css  */}}
 {{- /*  Add extended css after theme style */ -}}
 {{- $stylesheet := (slice $common $extended) | resources.Concat "assets/css/stylesheet.css" | minify }}
+{{- $stylesheet := (slice $common $extended) | resources.Concat "/css/carbon.css" | minify }}
 
 {{- if not .Site.Params.assets.disableFingerprinting }}
 {{- $stylesheet := $stylesheet | fingerprint -}}

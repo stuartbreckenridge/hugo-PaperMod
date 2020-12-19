@@ -203,9 +203,11 @@
 }
 
 .post-content blockquote {
-    margin: 0 calc(var(--gap) * -1);
+    margin: 0 calc(var(--gap) * 1);
     padding: 0 32px;
-    border-inline-start: 2px solid var(--primary)
+    border-inline-start: 1px solid var(--secondary);
+    color: var(--secondary);
+    font-size: 90%;
 }
 
 .post-content hr {
