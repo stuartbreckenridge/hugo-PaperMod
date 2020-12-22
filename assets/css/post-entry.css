@@ -17,12 +17,14 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3
+    -webkit-line-clamp: 3;
+    font-weight: 900;
 }
 
 .first-entry .entry-header h2 {
     font-size: 34px;
-    line-height: 1.3
+    line-height: 1.3;
+    font-weight: 900;
 }
 
 .first-entry .entry-content {
@@ -57,7 +59,8 @@
 }
 
 .entry-header h2 {
-    font-size: 24px
+    font-size: 24px;
+    font-weight: 800 !important;
 }
 
 .entry-content {
@@ -77,11 +80,12 @@
 }
 
 .entry-link {
+   
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0
+    bottom: 0;
 }
 
 .entry-cover,

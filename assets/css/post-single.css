@@ -5,6 +5,7 @@
 .post-title {
     margin-bottom: 2px;
     font-size: 40px;
+    font-weight: 900;
     transform: translateX(-2px)
 }
 
