@@ -62,7 +62,8 @@
 
 .post-content a,
 .toc a:hover {
-    box-shadow: 0 1px 0 var(--primary)
+    /* box-shadow: 0 1px 0 var(--primary) */
+    font-weight: 500;
 }
 
 .post-content a code {
