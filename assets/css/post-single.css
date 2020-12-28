@@ -60,6 +60,19 @@
     font-size: 12px
 }
 
+.warning-panel {
+    background: var(--warning-bg);
+    font-size: 0.9em;
+    border-radius: var(--radius);
+    border: 2px solid var(--warning-border);
+    margin-bottom: var(--gap);
+}
+
+.warning-panel p {
+    padding: 4px;
+    margin-bottom: 0px !important;
+}
+
 .post-content a,
 .toc a:hover {
     /* box-shadow: 0 1px 0 var(--primary) */
