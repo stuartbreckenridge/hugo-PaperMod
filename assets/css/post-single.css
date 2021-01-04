@@ -226,7 +226,7 @@
 .post-content blockquote {
     margin: 0 calc(var(--gap) * 1);
     padding: 0 32px;
-    border-inline-start: 1px solid var(--secondary);
+    border-inline-start: 2px solid var(--border);
     color: var(--secondary);
     font-size: 95%;
 }
@@ -359,7 +359,8 @@ h6:hover .anchor {
 
 @media screen and (max-width:600px) {
     .post-content blockquote {
-        margin: 0 calc(var(--gap) * -1);
-        padding: 0 21px
+        padding-left: 10px;
+        padding-right: 0px;
+        margin-left: 0;
     }
 }

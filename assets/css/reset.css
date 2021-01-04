@@ -36,7 +36,7 @@ body {
     line-height: 1.8em;
     word-break: break-word;
     font-weight: 300;
-    background: var(--theme)
+    background: var(--theme);
 }
 
 article,
