@@ -64,10 +64,13 @@
 <meta name="msapplication-TileColor" content="#2e2e33">
 <!-- Generator -->
 {{- hugo.Generator }}
+
 <!-- RSS -->
-{{- range .AlternativeOutputFormats -}}
+<!-- {{- range .AlternativeOutputFormats -}}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-{{ end -}}
+{{ end -}} -->
+<link rel="alternate" type="application/rss+xml" href="https://feedpress.me/stuartbreckenridgecom.xml">
+<link rel="alternate" type="application/json" href="https://feedpress.me/stuartbreckenridgecom.json">
 {{- range .Translations -}}
 <link rel="alternate" hreflang="{{- .Lang -}}" href="{{- .Permalink -}}" />
 {{ end }}
