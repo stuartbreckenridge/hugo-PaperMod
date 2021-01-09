@@ -1,5 +1,6 @@
 {{- with $.Site.Params.homeInfoParams }}
 <article class="first-entry home-info">
+    
     <header class="entry-header">
         <h2>{{- .Title | markdownify }}</h2>
     </header>
@@ -8,6 +9,9 @@
     </section>
     <footer class="entry-footer">
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
+        <div id="carbon-main">
+            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYI523J&placement=stuartbreckenridgecom" id="_carbonads_js"></script>
+        </div>
     </footer>
 </article>
 {{- end}}
