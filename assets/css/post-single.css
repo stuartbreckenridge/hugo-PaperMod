@@ -219,6 +219,12 @@
     border-radius: 8px
 }
 
+.post-content > ol > li > code {
+    background: var(--code-bg);
+    font-size: .9em;
+    border-radius: 8px
+}
+
 .post-content p a code {
     text-decoration: none;
 }
@@ -229,7 +235,7 @@
     padding: 10px;
     //color: rgba(255, 255, 255, .8);
     //background: 0 0;
-    font-size: 0.75em;
+    font-size: 0.9em;
     border-radius: 0;
     overflow-x: auto
 }
