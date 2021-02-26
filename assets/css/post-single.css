@@ -210,8 +210,17 @@
     font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
     font-size: .78em;
     line-height: 1.5;
-    /* background: var(--code-bg); */
     border-radius: 2px
+}
+
+.post-content p code {
+    background: var(--code-bg);
+    font-size: .9em;
+    border-radius: 8px
+}
+
+.post-content p a code {
+    text-decoration: none;
 }
 
 .post-content pre code {
