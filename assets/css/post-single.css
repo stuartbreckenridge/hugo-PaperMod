@@ -163,7 +163,7 @@
 .post-content pre {
     margin: auto calc(var(--gap) * -1) 32px;
     background: var(--hljs-bg) !important;
-    /* border-radius: var(--radius) */
+    border-radius: var(--radius)
 }
 
 .post-content li>.highlight {
@@ -215,14 +215,16 @@
 
 .post-content p code {
     background: var(--code-bg);
-    font-size: .9em;
-    border-radius: 8px
+    font-size: .78em;
+    border-radius: 8px;
+    border: 1px solid var(--tertiary);
 }
 
 .post-content > ol > li > code {
     background: var(--code-bg);
-    font-size: .9em;
-    border-radius: 8px
+    font-size: .78em;
+    border-radius: 8px;
+    border: 1px solid var(--tertiary);
 }
 
 .post-content p a code {
@@ -235,9 +237,10 @@
     padding: 10px;
     //color: rgba(255, 255, 255, .8);
     //background: 0 0;
-    font-size: 0.9em;
-    border-radius: 0;
-    overflow-x: auto
+    font-size: 0.78em;
+    border-radius: 8px;
+    overflow-x: auto;
+    border: 1px solid var(--tertiary);
 }
 
 .post-content blockquote {
