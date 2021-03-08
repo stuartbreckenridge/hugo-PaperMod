@@ -218,6 +218,8 @@
     font-size: 1em;
     border-radius: 8px;
     border: 1px solid var(--tertiary);
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .post-content p a code {
