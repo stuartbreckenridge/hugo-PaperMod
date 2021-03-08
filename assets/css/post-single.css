@@ -207,22 +207,15 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-family: "SF Mono", Menlo, Monaco, 'Courier New', Courier, monospace;
     font-size: .78em;
     line-height: 1.5;
     border-radius: 2px
 }
 
-.post-content p code {
+.post-content code {
     background: var(--code-bg);
-    font-size: .78em;
-    border-radius: 8px;
-    border: 1px solid var(--tertiary);
-}
-
-.post-content > ol > li > code {
-    background: var(--code-bg);
-    font-size: .78em;
+    font-size: 1em;
     border-radius: 8px;
     border: 1px solid var(--tertiary);
 }
@@ -238,9 +231,14 @@
     //color: rgba(255, 255, 255, .8);
     //background: 0 0;
     font-size: 0.85em;
+    letter-spacing: -0.027em;
     border-radius: 8px;
     overflow-x: auto;
     border: 1px solid var(--tertiary);
+}
+
+.post-content > pre > code > span {
+    color: var(--primary);
 }
 
 .post-content blockquote {
